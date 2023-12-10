@@ -1,0 +1,184 @@
+// import Slider from "./assignment/slider";
+// import Reacthookform from "./formvalidation/reacthookform";
+// import Customformvalidation from "./formvalidation/Customformvalidation.jsx"
+// import Faqdetail from "./Faq/Faqdetail.jsx"
+// import Form from "./form/multipleuserformdata.jsx"
+
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import Pagenotfound from "./Routing/Pagenotfound";
+// import Signup from "./Routing/register";
+// import Laptops from "./Routing/Laptops";
+// import Mobiles from "./Routing/Mobiles";
+// import Products from "./Routing/products";
+// import Navbarstyle from "./Routing/Navbarstyle.module.css"
+// import Televisions from "./Routing/Television";
+// import Home from "./Routing/home";
+// import Login from "./Routing/Laptops";
+// import Navbar from "./Routing/Navbar";
+// import Watches from "./Routing/Watches";
+// import MyForm from "./assignment/customhooks/useform";
+// import UseNavbar from "./assignment/customhooks/usenavbar";
+// import ToggleImage from "./assignment/customhooks/usetoggle";
+// import ChatComponent from "./assignment/customhooks/chat";
+// import Prevcounter from "./assignment/customhooks/useprev";
+// import FAQAccordion from "./assignment/Accordian";
+// import Reacthookform from "./formvalidation/reacthookform";
+
+// import TeachersPage from './components/TeachersPage';
+// import StudentsPage from './components/StudentsPage';
+
+// import React from 'react';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import Navbar from './components/Navbar';
+// import Sidebar from './components/Sidebar';
+// import HomePage from './components/Homepage';
+// import TeachersPage from './components/TeachersPage';
+// import StudentsPage from './components/StudentsPage';
+// import MilestonesPage from './components/MilestonesPage';
+// import EventsPage from './components/EventsPage';
+// import DetailsPage from './components/DetailsPage';
+// import { Switch } from '@mui/material';
+
+{/*function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className="container-fluid">
+          <div className="row">
+            <Sidebar />
+            <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-4">
+              <Switch>
+                <Route path="/" exact component={HomePage} />
+                <Route path="/teachers" component={TeachersPage} />
+                
+                <Route path="/details/:type/:id" component={DetailsPage} />
+              </Switch>
+            </main>
+          </div>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
+export default App;*/}
+
+
+
+// import Todoreducer from "./assignment/Todoreducer";
+
+// import TodoApp from "./assignment/Todolist";
+
+
+// import UsereducerHook1 from "./Usereducer/Usereducerhook1";
+// import UsereducerHook2 from "./Usereducer/Usereducerhook2";
+
+// import Routing1 from "./Routingnavbar/routing1";
+
+// import Routing from "./Routing/routing";
+
+// import UsereducerHook from "./Usereducer/Usereducer";
+
+// import Form from "./form/form.jsx"
+// import Addelements from "./assignment/Addelements";
+// import Budget from "./assignment/Budgettracker/Budget";
+// import MovieApi from "./assignment/Fakestory";
+// import SearchData from "./assignment/Searchdetails";
+// import Studentdetails from "./assignment/employee/Studentdetails"
+// import Movie from "./assignment/omdapi";
+
+
+
+
+
+
+{/*function App() {
+  return (
+    
+  <div>*/}
+  
+
+    {/*<Slider/>*/}
+  {/*<Reacthookform/>*/}
+  {/*<Customformvalidation/>*/}
+  {/*<Faqdetail/>*/}
+  {/*<Form/>*/}
+  {/*<Searchemployeedetails/>*/}
+  {/*<Form/>*/}
+   {/*<UsereducerHook/>*/}
+   {/*<UsereducerHook1/>*/}
+    {/*<UsereducerHook2/>*/}
+    {/*<Routing/>*/}
+   {/*<Routing1/>*/}
+  {/*<TodoApp/>*/}
+{/*<Todoreducer/>
+<Studentdetails/>
+<Addelements/>
+<Movie/>
+<MovieApi/>
+<Budget/>
+<SearchData/>*/}
+{/*<Reacthookform/>
+<FAQAccordion/>
+<Prevcounter/>
+<ChatComponent/>
+<UseNavbar/>
+<ToggleImage/>
+<MyForm/>
+
+<BrowserRouter>
+   <Navbar navlinks={{key1:"Home",key2:"Products",key3:"Login",key4:"Signup"}}
+   navpaths={{url1:"/",url2:"/products",url3:"/login",url4:"/register"}}
+   classname={Navbarstyle.nav} anchorClass={Navbarstyle.a}/>
+  
+   <Routes>
+   <Route path="/" element={<Home/>}/>
+   <Route path="/products" element={<Products/>}>
+   <Route index element={<Mobiles/>}/>
+   <Route path="mobiles" element={<Mobiles/>}/>
+   <Route path="laptops" element={<Laptops/>}/>
+   <Route path="television" element={<Televisions/>}/>
+   <Route path="watches" element={<Watches/>}/>
+   </Route>
+   <Route path="/login" element={<Login/>}/>
+   <Route path='/register' element={<Signup/>}/>
+   <Route path="*" element={<Pagenotfound/>}/>
+   </Routes>
+</BrowserRouter>
+   
+    </div>
+  );
+}
+
+export default App;*/}
+
+
+function App() {
+
+  return (
+    
+  <div>
+  <Navbar/>
+  
+<Router>
+    
+
+      <Routes>
+      <Route path="/" element={<Widgets/>} />
+        <Route path="/events" element={<EventComponent/>} />
+        <Route path="/teachers"element={<TeacherComponent/>} />
+        <Route path="/students" element={<StudentComponent/>} />
+        <Route path="/milestones" elementt={<MilestoneComponent />} />
+        </Routes>
+
+    </Router>
+    <AdmissionRateChart />
+  <StudentPerformanceChart />
+  <GraduationRateChart />
+    
+</div>
+  );
+}
+
+export default App;

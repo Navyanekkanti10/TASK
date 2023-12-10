@@ -1,0 +1,15 @@
+nav{
+    background-color:palevioletred;
+    height:50px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 47px;
+    position: relative;
+    top:16px;
+    
+    
+    
+}
